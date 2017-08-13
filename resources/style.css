@@ -153,6 +153,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .footer li {
   list-style: none;
@@ -163,8 +164,10 @@ footer {
 .copyright {
   display: block;
 }
-.info {
-  display: block;
+#info {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
 }
 .footer h3 {
   font-family: Georgia;
