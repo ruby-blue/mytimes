@@ -52,13 +52,16 @@ nav {
 .large{
   width: 630px;
   padding-right: 32px;
+  flex-shrink: 1;
 }
 .medium{
   width: 300px;
   padding-right: 32px;
+  flex-shrink: 1;
 }
 .small{
   width: 240px;
+  flex-shrink: 1;
 }
 #fish {
   background: url("./images/img-story-main.png");
@@ -79,6 +82,7 @@ nav {
   background: url("./images/img-story-1.png");
   display: flex;
   height: 300px;
+  width: 300px;
 }
 .headline p {
   font-family: Georgia;
